@@ -1,5 +1,8 @@
-export default function ClientId() {
+export default function ClientId({params}) {
     return (
-     <h1>ClientId page</h1>
+     <div>
+        <h1>ClientId page</h1>
+        <p>{params.clientId}</p>
+     </div>
     );
   }
