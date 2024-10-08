@@ -6,3 +6,30 @@ padding: 0;
 body {
     background-color: white;
 }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+header a {
+    margin-left: 17px;
+}
+
+.container {
+    padding: 20px 50px;
+
+}
