@@ -11,7 +11,7 @@ async function fetchPostById (id) {
 const Post = async ({params: {id}}) => {
     const posts = await fetchPostById(id)
   return (
-    <div>
+    <div className="post">
         <PostDetails posts={posts}/>
        
     </div>

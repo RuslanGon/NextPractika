@@ -8,7 +8,7 @@ const PostDetails = ({posts}) => {
         <p>{posts.body}</p>
         <strong>Avtor ID {posts.userId}</strong>
         <br></br>
-        <Link href='/'>go back</Link>
+        <Link href='/'>Go back</Link>
     </div>
   )
 }
