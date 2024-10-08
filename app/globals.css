@@ -31,5 +31,19 @@ header a {
 
 .container {
     padding: 20px 50px;
+}
 
+.post {
+    width: 500px;
+    margin-top: 20px;
+    border: 1px solid red;
+    padding: 10px;
+}
+
+.seemore {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
 }
