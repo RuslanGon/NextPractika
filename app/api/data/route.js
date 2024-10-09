@@ -1,3 +1,8 @@
 export async function GET(request) {
-return new Response('Here is data')
+    const data = {
+        name: 'Ruslan',
+        age: 37,
+        gender: 'male'
+    }
+return new Response(JSON.stringify(data))
 }
